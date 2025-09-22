@@ -1,0 +1,11 @@
+ 
+Create a new instance
+go to GitHub account create a new repository 
+go to profile -> settigs ssh and GPG keys -> new ssh key( to enter ssh key go to instance copy the id_ed225119.pub key and pass in ssh key)
+copy the repository link 
+go to mobexterm and clone the git hub code ( git clone https://github.com/allemnaveen/Ansible_tut.git) -> checking cd repository name
+
+#git config --global user.name "Naveen"
+#git config --global user.email "allemnaveenkumar04@gmail.com"
+#cat ~/.gitconfig 
+
