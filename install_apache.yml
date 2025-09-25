@@ -1,0 +1,28 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+
+  - name: install apache2 package
+    apt:
+     name: apache2
+  - name: update repository
+    apt:
+     update_cache: yes
+
+  - name: install nginx
+    apt:
+     name: nginx
+     state: present
+  - name: install docker.io
+    apt: 
+     name: docker.io 
+  - name: installing project packages
+    apt: 
+     name: 
+      - git
+      - vim
+      - wget
+      - nodejs
+     state: present 
